@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cube With iFrames</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+<!-- CONTROLS -->
+      
+<input type="radio" checked id="radio-front" name="select-face"/>    
+<input type="radio" id="radio-left" name="select-face"/>
+<input type="radio" id="radio-right" name="select-face"/>
+<input type="radio" id="radio-top" name="select-face"/>
+<input type="radio" id="radio-bottom" name="select-face"/>
+<input type="radio" id="radio-back" name="select-face"/>
+
+<div class="separator"></div>
+
+
+<div class="space3d">
+    
+
+<div class="_3dbox">
+  <div class="_3dface _3dface--front">
+    <iframe src="https://wikipedia.org" frameborder="0"></iframe>
+  </div>
+  <div class="_3dface _3dface--top">
+    <iframe src="http://ghast.io" frameborder="0"></iframe>
+  </div>
+  <div class="_3dface _3dface--bottom">
+    <iframe src="https://playback.ai" frameborder="0"></iframe>
+  </div>
+  <div class="_3dface _3dface--left">
+    <iframe src="https://augmento.app" frameborder="0"></iframe>
+  </div>
+  <div class="_3dface _3dface--right">
+    <iframe src="https://lucybain.com/" frameborder="0"></iframe>
+  </div>
+  <div class="_3dface _3dface--back">
+    <iframe src="https://lucybain.com" frameborder="0"></iframe>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
